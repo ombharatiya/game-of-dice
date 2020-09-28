@@ -258,6 +258,7 @@ class GamePlay:
         self.score_board = ScoreBoard(winning_score)
         self.winners_count = 0
         self.players_count = num_of_players
+        print("Game Ready to Play")
 
     def isWinner(self, player):
         """
@@ -424,14 +425,17 @@ if __name__ == "__main__":
         elif n == 3:
             try:
                 num_players = int(sys.argv[1])
+                print("Number of Players In the Game are {}".format(sys.argv[1]))
             except:
                 raise CustomException(MESSAGE_ERROR_NUM_PLAYER_INTEGER)
             try:
                 target_score = int(sys.argv[2])
+                print("target Score of the Game is {}".format(sys.argv[2]))
             except:
                 raise CustomException(MESSAGE_ERROR_TARGET_SCORE_INTEGER)
 
             game = GamePlay(num_players, target_score)
+            print("Starting The Game !!!")
             game.play()
         else:
             inputDetails()
