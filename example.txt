@@ -1,0 +1,100 @@
+>> python GameOfDice/Game/Game.py 3 24
+3
+['GameOfDice/Game/Game.py', '3', '24']
+Number of Players In the Game are 3
+target Score of the Game is 24
+Game Ready to Play
+Starting The Game !!!
+You got 6
+Awesome! You got one extra chance to roll the dice.
+You got 1
+player: player3 current score 7 total score: 7
+rank - player - score
+1 -- player3 -- 7
+2 -- player2 -- 0
+3 -- player1 -- 0
+You got 2
+player: player1 current score 2 total score: 2
+rank - player - score
+1 -- player3 -- 7
+2 -- player1 -- 2
+3 -- player2 -- 0
+You got 6
+Awesome! You got one extra chance to roll the dice.
+You got 6
+Awesome! You got one extra chance to roll the dice.
+You got 2
+player: player2 current score 14 total score: 14
+rank - player - score
+1 -- player2 -- 14
+2 -- player3 -- 7
+3 -- player1 -- 2
+You got 6
+Awesome! You got one extra chance to roll the dice.
+You got 3
+player: player3 current score 9 total score: 16
+rank - player - score
+1 -- player3 -- 16
+2 -- player2 -- 14
+3 -- player1 -- 2
+You got 2
+player: player1 current score 2 total score: 4
+rank - player - score
+1 -- player3 -- 16
+2 -- player2 -- 14
+3 -- player1 -- 4
+You got 1
+Oops! one penalty has been added to your account.
+player: player2 current score 1 total score: 15
+rank - player - score
+1 -- player3 -- 16
+2 -- player2 -- 15
+3 -- player1 -- 4
+You got 3
+player: player3 current score 3 total score: 19
+rank - player - score
+1 -- player3 -- 19
+2 -- player2 -- 15
+3 -- player1 -- 4
+You got 5
+player: player1 current score 5 total score: 9
+rank - player - score
+1 -- player3 -- 19
+2 -- player2 -- 15
+3 -- player1 -- 9
+You got 4
+Thank God! You're now safe from penalty.
+player: player2 current score 4 total score: 19
+rank - player - score
+1 -- player3 -- 19
+2 -- player2 -- 19
+3 -- player1 -- 9
+You got 6
+Awesome! You got one extra chance to roll the dice.
+You got 4
+player: player3 current score 10 total score: 24
+Congrats to player player3 for winning
+rank - player - score
+1 -- player3 -- 24
+2 -- player2 -- 19
+3 -- player1 -- 9
+You got 6
+Awesome! You got one extra chance to roll the dice.
+You got 6
+Awesome! You got one extra chance to roll the dice.
+You got 1
+player: player1 current score 13 total score: 22
+rank - player - score
+1 -- player3 -- 24
+2 -- player1 -- 22
+3 -- player2 -- 19
+You got 6
+Awesome! You got one extra chance to roll the dice.
+You got 1
+player: player2 current score 7 total score: 24
+Congrats to player player2 for winning
+rank - player - score
+1 -- player3 -- 24
+2 -- player2 -- 24
+3 -- player1 -- 22
+Game is completed!
