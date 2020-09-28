@@ -26,7 +26,7 @@ The current code is a simple python program that can be easily run through comma
     cd game-of-dice
 
 ### Step 3 - Run the test 
-    python GameOfDice/Game/Game.py test
+    python Game/Game.py test
 
 Note:  Currently only one test has been added
 
@@ -34,7 +34,7 @@ Note:  Currently only one test has been added
 
 It takes two arguments: numof players & target score
 
-    python GameOfDice/Game/Game.py 2 25
+    python Game/Game.py 2 25
 
 ### More details
 
